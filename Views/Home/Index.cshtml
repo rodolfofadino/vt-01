@@ -1,0 +1,38 @@
+﻿@model vitat_web.Controllers.HomeViewModel 
+
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <h1>
+            Olá @Model.Pessoa.Nome
+            idade: @Model.Hora
+         </h1>
+
+
+
+        <h1>
+            Usando View Data @ViewData["horario"]
+
+        </h1>
+
+        <h1>
+            Usando View Data @ViewData["HoraDoBrasil"]
+
+        </h1>
+
+        <h1>
+            Usando View Bag @ViewBag.HoraDoBrazil
+
+        </h1>
+
+        <h1>
+            Usando View Bag @ViewBag.horario
+
+        </h1>
+
+    </body>
+
+</html>
