@@ -31,6 +31,15 @@ namespace vitat_web.Controllers
 		}
 
 
+
+		public ActionResult Sobre()
+        {
+
+
+			return View();
+        }
+
+
 		public string ListaDeCategorias(string category)
 		{
 

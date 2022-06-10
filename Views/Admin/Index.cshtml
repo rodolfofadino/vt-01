@@ -1,0 +1,17 @@
+﻿@model List<Receita>
+
+
+<h1>Receitas</h1>
+
+<ul>
+    @foreach (var item  in Model) {
+            <li>
+
+                Titulo: @item.Titulo
+                <br />
+                Descricao: @item.Descricao
+
+            </li>
+    }
+
+</ul>
